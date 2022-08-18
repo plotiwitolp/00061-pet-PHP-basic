@@ -37,7 +37,9 @@ $var2 = "test";
 echo "some text $var2 <br>";
 echo "some text {$var}2 <br>";
 echo 'some text $var <br>';
+echo "<pre>";
 echo `dir`; // для управления командами из ОС
+echo "</pre>";
 ?>
 <br>
 

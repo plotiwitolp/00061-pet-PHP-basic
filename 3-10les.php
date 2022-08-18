@@ -140,6 +140,44 @@ for ($i = 2; $i < 100; $i++) {
     $f = false;
 }
 ?>
-<?= doTitle('28 '); ?>
+<?= doTitle('28 Создание массива и обращение к его элементам'); ?>
+<?php
+$arr = array('test1', "test2", 'test2');
+// echo '<pre>';
+// print_r($arr);
+// echo '</pre>';
 
+$arr1 = [15 => "t1", "t2", 5 => "t3"];
+$arr1[4] = "t4";
+echo '<pre>';
+print_r($arr1);
+echo '</pre>';
+
+// $var = "Hello world!";
+// $arr = (array) $var;
+// echo "<pre>";
+// print_r($arr);
+// "</pre>";
+?>
+<?= doTitle('29 Ассоциативные массивы'); ?>
+<?php
+$arr29 = ["key1" => "value1", "key2" => "value2"];
+$arr29["key3"] = "value3";
+$arr29["key3"] = "value4";
+echo "<pre>";
+print_r($arr29);
+echo "</pre>";
+?>
+<?= doTitle('30 Многомерные массивы'); ?>
+<?php
+$transport = [
+    'Авто' => ['Лада', "Chevrolet", "Dodge"],
+    'Самолеты' => ['Ил-2', "И-16", "Мессершмидт"],
+    'Корабли' => ['Авианосец', "Фрегат", "Эсминец"],
+];
+echo "<pre>";
+print_r($transport);
+echo "</pre>";
+echo $transport["Самолеты"][2];
+?>
 <?php require "./footer.php";
