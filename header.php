@@ -17,9 +17,10 @@
         <div class="container">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="./index.php">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="./first10les.php">first-10-les</a></li>
-                <li class="nav-item"><a class="nav-link" href="./second10les.php">second-10-les</a></li>
-                <li class="nav-item"><a class="nav-link" href=".\test1\index.php">test1-page</a></li>
+                <li class="nav-item"><a class="nav-link" href="./1-10les.php">1-10-les</a></li>
+                <li class="nav-item"><a class="nav-link" href="./2-10les.php">2-10-les</a></li>
+                <li class="nav-item"><a class="nav-link" href="./3-10les.php">3-10-les</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href=".\test1\index.php">test1-page</a></li> -->
             </ul>
         </div>
     </nav>
