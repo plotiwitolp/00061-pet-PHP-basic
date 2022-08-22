@@ -3,16 +3,16 @@ if ($_POST['capcha'] != 12) {
     header('location: 6-10les.php');
     exit;
 }
-if ($_POST['subject'] == 1) {
-    $subject = 'Вопрос 1';
-} elseif ($_POST['subject'] == 2) {
-    $subject = 'Вопрос 2';
-} elseif ($_POST['subject'] == 3) {
-    $subject = 'Вопрос 3';
-} else {
-    $subject = 'Вопрос';
-}
-
+// if ($_POST['subject'] == 1) {
+//     $subject = 'Вопрос 1';
+// } elseif ($_POST['subject'] == 2) {
+//     $subject = 'Вопрос 2';
+// } elseif ($_POST['subject'] == 3) {
+//     $subject = 'Вопрос 3';
+// } else {
+//     $subject = 'Вопрос';
+// }
+$subject = "Test message";
 $to = 'j-c-mail@mail.ru';
 $from = trim($_POST['email']);
 
