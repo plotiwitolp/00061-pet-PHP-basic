@@ -16,11 +16,12 @@
     <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="./index.php">Home</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="./index.php">Home</a></li> -->
                 <li class="nav-item"><a class="nav-link" href="./1-10les.php">1-(1-10)-les</a></li>
                 <li class="nav-item"><a class="nav-link" href="./2-10les.php">2-(11-20)-les</a></li>
                 <li class="nav-item"><a class="nav-link" href="./3-10les.php">3-(21-30)-les</a></li>
                 <li class="nav-item"><a class="nav-link" href="./4-10les.php">4-(31-40)-les</a></li>
+                <li class="nav-item"><a class="nav-link" href="./5-10les.php">5-(41-50)-les</a></li>
                 <!-- <li class="nav-item"><a class="nav-link" href=".\test1\index.php">test1-page</a></li> -->
             </ul>
         </div>
